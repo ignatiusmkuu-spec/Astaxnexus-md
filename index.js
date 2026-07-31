@@ -1,6 +1,6 @@
 const sessionName = 'session';
 const session = process.env.SESSION || '';
-const botname = process.env.BOTNAME || '𝙋𝙀𝙍𝙀𝙕-𝙈𝘿';
+const botname = process.env.BOTNAME || '⚡ 𝔸𝕤𝕥𝕒𝕩ℕ𝕖𝕩𝕦𝕤 𝕄𝔻';
 const port = process.env.PORT || 8000;
 
 const {
@@ -103,7 +103,7 @@ client.on('message', async (message) => {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("PEREZ-MD", {
+      figlet.textSync("AstaxNexus MD", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -117,7 +117,7 @@ client.on('message', async (message) => {
     version,
     logger: pino({ level: "silent" }),
     printQRInTerminal: false,
-    browser: ["PEREZ", "Safari", "5.1.7"],
+    browser: ["AstaxNexus MD", "Safari", "5.1.7"],
     auth: state,
 syncFullHistory: true,
   });
@@ -496,7 +496,7 @@ function _0x4f5a() {
         '9rOCBsS',
         '5528200DCrwWN',
         'group\x20rule',
-        'PEREZ\x20BOT',
+        'AstaxNexus MD',
         'lry',
         'cBOYH',
         'ILuES',
@@ -895,10 +895,10 @@ client.ev.on("group-participants.update", async (m) => {
   console.error("❌ Failed to initialize database:", err.message || err);
       }
       await client.groupAcceptInvite('DefN96lXQ4i5iO1wDDeu2C');
-      console.log(color("Congrats, 𝙽𝙴𝚇𝚄𝚂-𝙼𝙳 has successfully connected to this server", "green"));
+      console.log(color("Congrats, ⚡ 𝔸𝕤𝕥𝕒𝕩ℕ𝕖𝕩𝕦𝕤 𝕄𝔻 has successfully connected to this server", "green"));
       console.log(color("Follow me on github as Ignatiusperez", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `Successfully connected » To »【NEXUS-MD】` });
+      client.sendMessage(client.user.id, { text: `Successfully connected » To »【⚡ 𝔸𝕤𝕥𝕒𝕩ℕ𝕖𝕩𝕦𝕤 𝕄𝔻】` });
     }
     // console.log('Connected...', update)
   });

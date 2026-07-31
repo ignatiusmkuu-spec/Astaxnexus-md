@@ -1,4 +1,4 @@
-# NEXUS-MD / PEREZ-MD — WhatsApp Bot
+# ⚡ 𝔸𝕤𝕥𝕒𝕩ℕ𝕖𝕩𝕦𝕤 𝕄𝔻 — WhatsApp Bot
 
 ## Overview
 A WhatsApp multi-device bot built with [Baileys](https://github.com/whiskeysockets/Baileys) (Node.js). Features group management, media commands, AI chat (OpenAI/Gemini), sticker creation, YouTube downloads, and more.
